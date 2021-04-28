@@ -1,0 +1,53 @@
+html,body {
+    margin: 0;
+    background-color: #FAEACB;}
+
+.header {
+  display:flex;
+  flex-direction:row;}
+
+.subhead {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  color: #191919;
+  text-decoration: none;}
+
+.subhead:hover {
+  color: #800000;
+  cursor: pointer;
+  text-decoration: none;}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;}
+
+
+.title{
+  position: relative;
+  top: 30px;
+  left: 388px;
+  color: #191919;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 85px;}
+
+
+#pics {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    margin: auto;
+    text-align: center;}
+
+#pics img {
+    width: 200px;
+    margin-top: 0px;
+    margin-right: 16px;}
+
+#pics img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;}
